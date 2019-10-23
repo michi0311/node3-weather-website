@@ -44,6 +44,7 @@ header a {
 input {
     border: 1px solid #cccccc;
     padding: 8px;
+    margin: 4px 0px;
 }
 
 button {
@@ -52,4 +53,9 @@ button {
     background: #888888;
     color: #eeeeee;
     padding: 8px;
+    margin: 4px 0px;
+}
+
+form {
+    display:inline;
 }
