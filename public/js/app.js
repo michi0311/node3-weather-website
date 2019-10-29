@@ -6,6 +6,7 @@ const messageTwo = document.querySelector('#message-two')
 const locationButton = document.querySelector("#locationButton")
 
 //fetches weather for current location test
+console.log('test')
 function getWeather() {
     if (!navigator.geolocation) {
         messageOne.textContent = "Please turn on your loaction services!"
